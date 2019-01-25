@@ -1,0 +1,120 @@
+/*by https://copypet.jp*/
+.cp_bgpattern11 {
+	background-color: #ff8800;
+	background-image:
+	 radial-gradient(rgb(129, 241, 0) 1px, transparent 1px);
+	background-size: 20px 20px;
+}
+
+
+.ribbon {
+	position: relative;/*擬似要素を配置するための基準にする*/
+	padding: .3em;
+	background-color: #B2EBF2;
+	color: #0097A7;
+}
+.ribbon::before {
+	content: '';
+/*h1で指定した基準に対して相対配置をする*/
+	position: absolute;
+/*h1のコンテンツの上からの位置*/
+	top: 100%;
+/*h1のコンテンツの左からの位置*/
+	left: 0;
+/*三角形を作る設定*/
+	/*ボーダーのスタイルは直線に設定*/
+	border-style: solid;
+	/*rightだけに色を設定*/
+	border-color: transparent #0097A7 transparent transparent;
+	/*三角を作るためにrightとbottomのサイズを指定それ以外は0に*/
+	border-width: 0 15px 15px 0;
+}
+.ribbon::after {
+	content: '';
+/*h1で指定した基準に対して相対配置をする*/
+	position: absolute;
+/*h1のコンテンツの上からの位置*/
+	top: -15px;
+/*h1のコンテンツの右からの位置*/
+	right: 0;
+/*三角形を作る設定*/
+	/*ボーダーのスタイルは直線に設定*/
+	border-style: solid;
+	/*bottomだけに色を設定*/
+	border-color: transparent transparent #0097A7 transparent;
+	/*三角を作るためにrightとbottomのサイズを指定それ以外は0に*/
+	border-width: 0 15px 15px 0;
+}
+
+
+table th {/*table内のthに対して*/
+    padding: 10px;/*上下左右10pxずつ*/
+}
+  
+table td {/*table内のtdに対して*/
+    padding: 3px 10px;/*上下3pxで左右10px*/
+}
+
+table th{/*thに対して*/
+    color: #0097A7;
+    background: #B2EBF2;
+}
+  
+table td{/*tdに対して*/
+    color: rgb(59, 59, 59);
+    background: #fff5e5;
+}
+
+table {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  table th, table td {
+    border: solid 1px black;
+    /*実線 1px 黒*/
+}
+
+table {
+    width:300px;
+   /* width: 100% */
+}
+
+/* https://qiita.com/Slowh/items/d0eb17068efe2b9d8bcf */
+/*
+#header{
+    width:auto;
+    height:80px;
+    background-color:#1e93c1;
+    font-size:3em;
+    text-align : center;
+  }
+  
+#contents{
+    width:1100px;
+    min-height:300px;
+    color : #000000;
+    margin-right: auto; *//*コンテンツにだけ中央寄せを指定*//*
+    margin-left : auto;
+    margin-top:1.5%; 
+    margin-bottom: 1.5%;
+*//*    background-color :#ffffff; *//*
+    font-size: 1.6em;
+    line-height: 1.5em;
+    border-radius: 15px;
+}
+  
+#footer{
+    width: auto;
+    height:80px;
+    background-color :rgb(0, 255, 213);
+    color : #000;
+    font-size:1.4em;
+    text-align : center;
+}
+*/
+.wf-sawarabimincho { 
+    font-family: "Sawarabi Mincho"; 
+}
