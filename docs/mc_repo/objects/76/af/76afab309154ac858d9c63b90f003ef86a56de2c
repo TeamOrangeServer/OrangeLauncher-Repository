@@ -1,0 +1,132 @@
+import crafttweaker.item.IItemStack;
+#packmode normal titan kappa
+val constructtank = <ore:SearedTank>;
+constructtank.add(<tconstruct:seared_tank>);
+constructtank.add(<tconstruct:seared_tank:1>);
+constructtank.add(<tconstruct:seared_tank:2>);
+
+val complementtank = <ore:PorcelainTank>;
+complementtank.add(<tcomplement:porcelain_tank>);
+complementtank.add(<tcomplement:porcelain_tank:1>);
+complementtank.add(<tcomplement:porcelain_tank:2>);
+
+val bag = <ore:bagAlchemical>;
+bag.add(<projecte:item.pe_alchemical_bag:*>);
+
+val pearl = <ore:enderpearl>;
+pearl.add(<endermanevo:friender_pearl>);
+
+val aluminumingot = <ore:ingotAluminum>;
+aluminumingot.add(<erebus:materials:42>);
+
+val copperingot = <ore:ingotCopper>;
+copperingot.add(<erebus:materials:43>);
+
+val leadingot = <ore:ingotLead>;
+leadingot.add(<erebus:materials:44>);
+
+val silveringot = <ore:ingotSilver>;
+silveringot.add(<erebus:materials:45>);
+
+val tiningot = <ore:ingotTin>;
+tiningot.add(<erebus:materials:46>);
+
+val siphon = <ore:siphon>;
+siphon.add(<lordcraft:water_siphon>);
+siphon.add(<lordcraft:earth_siphon>);
+siphon.add(<lordcraft:fire_siphon>);
+siphon.add(<lordcraft:air_siphon>);
+siphon.add(<lordcraft:light_siphon>);
+siphon.add(<lordcraft:dark_siphon>);
+
+<ore:lightPlateIron>.remove(<magneticraft:light_plates:0>);
+<ore:lightPlateGold>.remove(<magneticraft:light_plates:1>);
+<ore:lightPlateCopper>.remove(<magneticraft:light_plates:2>);
+<ore:lightPlateLead>.remove(<magneticraft:light_plates:3>);
+<ore:lightPlateTungsten>.remove(<magneticraft:light_plates:5>);
+<ore:lightPlateSteel>.remove(<magneticraft:light_plates:6>);
+
+val tungplate = <ore:plateTungsten>;
+tungplate.add(<magneticraft:light_plates:5>);
+
+val grass = <ore:grass>;
+grass.add(<minecraft:tallgrass:1>);
+grass.add(<minecraft:double_plant:2>);
+grass.add(<minecraft:double_plant:10>);
+
+val netherstar = <ore:blockNetherStar>;
+netherstar.add(<overloaded:nether_star_block>);
+
+val dm = <ore:matterDark>;
+dm.add(<projecte:item.pe_matter:0>);
+
+val rm = <ore:matterRed>;
+rm.add(<projecte:item.pe_matter:1>);
+
+val fluxedplating = <ore:plateFluxed>;
+fluxedplating.add(<redstonearsenal:material:224>);
+
+val pcb = <ore:pcb>;
+pcb.add(<pneumaticcraft:printed_circuit_board>);
+
+val enderstar = <ore:starEnder>;
+enderstar.add(<actuallyadditions:item_misc:19>);
+enderstar.add(<extendedcrafting:material:40>);
+
+val batwing = <ore:wingBat>;
+batwing.add(<actuallyadditions:item_misc:15>);
+batwing.add(<xreliquary:mob_ingredient:5>);
+
+val witchhat = <ore:hatWitch>;
+witchhat.add(<quark:witch_hat>);
+witchhat.add(<xreliquary:witch_hat>);
+
+val dragonscale = <ore:dragonScale>;
+dragonscale.add(<quark:enderdragon_scale>);
+dragonscale.add(<mysticalagradditions:stuff:3>);
+
+val titaniumingot = <ore:ingotTitanium>;
+titaniumingot.add(<thermalsolars:itemtitaniumingot>);
+
+val titaniumdust = <ore:dustTitanium>;
+titaniumdust.add(<thermalsolars:itemtitaniumdust>);
+
+val titaniumblock = <ore:blockTitanium>;
+titaniumblock.add(<thermalsolars:blocktitaniumblock>);
+
+val leadblock = <ore:blockLead>;
+leadblock.add(<magneticraft:storage_blocks:1>);
+
+val bucket = <ore:bucketHoney>;
+bucket.remove(<forge:bucketfilled>);
+bucket.remove(<erebus:bambucket>);
+
+val voidic = <ore:ingotSteel>;
+voidic.remove(<voidcraft:voidicsteel>);
+
+val eeingot = <ore:ingotEnderEnhanced>;
+eeingot.add(<extendedcrafting:material:48>);
+
+val petal = <ore:petal>;
+petal.add(<botania:petal:*>);
+petal.add(<botania:mushroom:*>);
+
+val carpet = <ore:carpet>;
+carpet.add(<minecraft:carpet:*>);
+
+val dye = <ore:dye>;
+dye.add(<erebus:giant_flower:0>);
+dye.add(<erebus:giant_flower:1>);
+dye.add(<erebus:giant_flower:2>);
+dye.add(<erebus:giant_flower:3>);
+dye.add(<erebus:giant_flower:4>);
+dye.add(<erebus:giant_flower:5>);
+dye.add(<erebus:giant_flower:6>);
+dye.add(<erebus:giant_flower:7>);
+dye.add(<erebus:giant_flower:8>);
+dye.add(<erebus:giant_flower:9>);
+dye.add(<erebus:giant_flower:10>);
+dye.add(<erebus:giant_flower:11>);
+dye.add(<erebus:giant_flower:12>);
+dye.add(<erebus:giant_flower:13>);
+

@@ -1,0 +1,30 @@
+{
+	"dependencies": "erebus",
+	"populate": {
+		"jade": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "erebus:ore_jade",
+					"metadata": 0
+				},
+				"material": { 
+					"name": "erebus:umberstone",
+					"metadata": 0
+				},
+				"cluster-size": 10
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					9
+				]
+			}
+		}
+	}
+}

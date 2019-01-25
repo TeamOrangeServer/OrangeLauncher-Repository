@@ -1,0 +1,626 @@
+3.0.35 Changelog (Always Backup your world before updating)
+Updated Mods:
+# Quark
+Features:
+# Normal mode release
+Fixes:
+# 
+WTF:
+# Do not use the ultimate energy input hatch it will eat power
+# Ignore chaotic solar panel fusion recipe
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.34 Changelog (Always Backup your world before updating)
+Updated Mods:
+# TorchMaster
+# SolarFluxReborn: 1
+# Dank/Null
+# ArmorPlus: 2
+# Audio Death (sounds were added by Gooderness; however, don't think we use them)
+# Better Advancements
+# Better Builder's Wands
+# Better Questing: 1
+# Standard Expansion
+# Cooking For Blockheads
+# Enderman Evolution
+# FTBLib/Utilities: 2
+# MJRLegends Lib
+# Mystical Agriculture
+# Natura
+# Nuclearcraft: 1
+# Quantum Flux
+# Quantum Storage: 1
+# Quark
+# Random Things
+# RebornCore: 1
+# RoughMobs2
+# Tinkers Construct: 1
+# Tinkers Complement
+# Twerk Simulator 2k16
+# YABBA: 1
+# RFTools/Control/Dimensions/Power
+# XNet
+# Lost Cities
+# McJtyLib: 1
+# Avaritia: 2 (Fixes something we don't use)
+# Dimensional Edibles (can make custom cakes/apples to send to other dimensions now)
+# Wither Skeleton Tweaks
+# Forge Multipart CBE
+# Cyclops Core: 1
+# Toast Control
+# Placebo
+# Progressive Bosses
+# Extra Planets
+# Galacticraft
+# Pneumaticcraft
+# Craftweaker
+# Iron Chests
+Features:
+# Added oredict to friender pearls
+# Began work on Kappa mode
+# Added the rest of Titan recipes for ALPHA testing
+# The Auto Dissolver and Auto Siever should now change color when structure is completed
+Fixes:
+# Fixed WCT infinity booster placeholder in BQ
+# Removed irrelevant terminals from the wireless terminal quest
+# Removed EMC from singularity, won't say which ones because there were 2 of them
+# Fixed Auto Dissolver mob spawning (just place water "source" blocks in the machine)
+# Blacklisted some creative blocks from being animated
+# Removed icosahedron requirement from chance cube achievement
+# Fixed some IE quests
+# Fixed cobalt seed recipe to accept any cobalt (did the same for ardite too)
+# Fixed Jaded Amaranthus quest (NBT data sucks to deal with sometimes)
+# Changed name of quest from Enederium Upgrade to Enderium Upgrade
+# Changed dimension ids to be closer to 0 except for spectre dimension (warning: worlds may explode)
+# GC oil should now spawn in more dimensions
+WTF:
+# Do not use the ultimate energy input hatch it will eat power
+# Ignore chaotic solar panel fusion recipe
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.33 Changelog (Always Backup your world before updating)
+Updated Mods:
+# AE2: 2
+# AE2WTLib: 2
+# Aroma1997s Dimensional World
+# Aroma1997s Core
+# Astral Sorcery: 2
+# Avaritia
+# Base
+# Better Questing: 3
+# Contenttweaker: 1
+# Standard Expansion: 1
+# BrandonsCore/Draconic Evolution
+# ZeroCore/Extreme Reactors
+# FTBUtilities
+# Industrial/Intergration Foregoing: 2
+# Iron Chests
+# downgraded JEI
+# MATC
+# NuclearCraft: 2
+# Pam's HarvestCraft
+# Reborn Core: 1
+# SolarFlux
+# TipTheScales: 1
+# WanionLib: 1
+# Wireless Crafting Terminal: 2
+# Ender IO
+# Ender IO Endergy
+# Immersive Engineering
+# P455w0rd's Lib
+# Lordcraft
+# AutoRegLib
+# Unidict
+# Quark: 2
+# Grue
+# Extended Crafting
+# ExtraCells2
+# Plustic
+# Bonsai Trees
+# MobGrindingUtils
+# Woot
+# MJRLegends Lib
+# Embers Rekindled
+# Pneumaticcraft
+# TorchMaster
+# Added Unloader
+# Added OpenComputers
+# Removed Corail Pillar
+# Removed JEI Intergration
+# Removed ViewEMC
+# Removed IGW
+# Removed GottaGoFast
+# Removed Computercraft
+Features:
+# Added Laser Cutter
+# Added Laser Cutter recipes
+# Added zinc to ex nihilo
+# Added other netherrack to be crushed by ex nihilo hammers
+# Super Reactor and Laser Cutter will now change color when constructed
+# Added the rest of Pam's Harvestcraft seeds to Agricraft
+Fixes:
+# Fixed natura seeds in agricraft, probably
+# Changed position of Lordcraft quests
+# Did some adjustments to the Nether
+# Disabled ExtraPlanets radiation
+# Fixed elder mushroom sieve registry
+# Added jade to Agricraft
+# Removed Thorium ore from generation
+# Removed irrelevant enchants from every Epeolatry
+# Fixed some loot chest rewards
+WTF:
+# Ignore chaotic solar panel fusion recipe
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.32 Changelog (Always Backup your world before updating)
+Updated Mods:
+# Forge 2795
+# FTBLib: 5/Utilities:2
+# ArmorPlus
+# AttributeFix
+# Better Questing: 2
+# Botania
+# Bookshelf
+# DarkUtils
+# Everlasting Abilities
+# Industrial Foregoing: 3
+# Industrial Intergration
+# Moofluids
+# JEI: 3
+# JETIF
+# Plustic
+# Quark: 3
+# RebornCore: 2
+# SonarCore: 2
+# Wawla
+# BrandonsCore
+# HammerCore
+# Embers Rekindled
+# Mystical Agriculture/Agradditions: 2
+# Quantum Storage: 2
+# Dimensional Edibles
+# CucumberLib
+# Guide-API
+# ActuallyAdditions
+# Immersive Engineering
+# Natura
+# MobGrindingUtils
+# WanionLib
+# Galacticraft Tweaker
+# Erebus
+# Temporarily disabled Waiting Time
+# Removed Rocky Core
+# Added TickProfiler and LagGoggles and Metallurgy....
+Features:
+# Improved Thermal Expansion machines
+# Added Bonsai pot Simple Achievement
+# Increased Ender Storage chest size
+# Added some text on Lordcraft in order to better understand the mod
+# Add a new chance cube reward
+Fixes:
+# Fixed Ender Crafter recipe for grains of infinity
+# Fixed a few conflicting recipes
+# Fixed typos in hunting dimension quest
+# Fixed wire cutters quest
+# Falling into nether now only works in the overworld and should no longer give obsidian
+# Adjusted Biometweaker
+# Adjusted simplyjetpacks GUI position
+# Fixed MATC repair duplication Thanks Radient_Sora
+# Fixed recipe issue with chaos fragments
+# Removed Spectre Coils from Loot Bags
+# Did some adjustments to Everlasting Abilities
+# Nuclearcraft metals will now spawn properly in mining dimension
+WTF:
+# Some Mekanism machine textures have disppeared but machines are still there, probably due to JEI update.
+# Ignore chaotic solar panel fusion recipe
+# Ignore neutronium solar panel dire crafting table recipe.
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.31 Changelog (Always Backup your world before updating)
+Updated Mods:
+# FTBLib
+Features:
+# 
+Fixes:
+# Fixed slime island rarity
+# Fixed last quests not opening
+WTF:
+# Ignore chaotic solar panel fusion recipe
+# Ignore neutronium solar panel dire crafting table recipe.
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.30 Changelog (Always Backup your world before updating)
+Updated Mods:
+# Forge 2784
+# Cucumber Library
+# FTBLib/Utilities: 2
+# RFTools
+# AutoRegLib
+# Embers Rekindled
+# Quark
+# CTM
+# Storage Drawers
+# ProjectE
+Features:
+# Added new chaotic solar panel recipe
+Fixes:
+# Fixed chaos plank recipe
+# Fixed Creative Chest configs
+# Attempt to fix last quests not opening
+WTF:
+# Ignore chaotic solar panel fusion recipe
+# Ignore neutronium solar panel dire crafting table recipe.
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.29 Changelog (Always Backup your world before updating)
+Updated Mods:
+# Dimensional Edibles: 2
+# EnderIO/Endergy
+# FTBLib/Utilities: 2
+# Lordcraft
+# Ore Excavation
+# Forgelin
+# Pneumaticcraft
+# Portality
+Features:
+# Added Liquid Chaos
+Fixes:
+# Fixed chaos planks crashing the client when standing on top of them
+# Attempt to fix last 3 quests
+WTF:
+# 
+Note:
+# Ignore neutronium solar panel dire crafting table recipe.
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.28 Changelog (Always Backup your world before updating)
+Updated Mods:
+# Better Questing: 2
+# Craftweaker
+# FastFurnace
+# FTBLib/Utilities: 2
+# JEI: 2
+# Plustic
+# Random Things
+# YABBA
+# DarkUtils
+# Thermal Solars: 2
+# Woot
+# JourneyMap
+# SolarFlux
+# ProjectE
+# ChiselsandBits
+Features:
+# Added 1 quest
+# Added chaos blocks
+# Added animated RAK texture (smoothed out by KriNon)
+Fixes:
+# Removed EMC from singularities 
+WTF:
+# 
+Note:
+# Ignore neutronium solar panel dire crafting table recipe.
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.27 Changelog (Always Backup your world before updating)
+Updated Mods:
+# Forge 2775
+# Ceramics
+# RoughMobs2
+# Abyssalcraft
+# ChiselsandBits
+# ExtraPlanets
+# FastFurnace
+# Fastworkbench
+# RFTools/Dims/Ctrl
+# AE2
+# Custom Main Menu
+# Industrial Foregoing
+# Iron Chests
+# JEHC
+# RebornCore
+# McJtyLib
+# Foamfix
+# WanionLib
+# HammerCore
+# Removed Power Adapters
+Features:
+# Improved powergen of lunar panels
+# Slime islands will now spawn slightly more rarely
+# Added 1 quest
+# Adjusted 2 quests
+# Can now see all abyssalcraft item names
+# Added more magica converter recipes
+Fixes:
+# Fixed Astral Sorcery deprecated recipes
+# Fixed pam's rice and coffee seeds, turns out it was just a conflict with actually additions coffee and rice
+WTF:
+# 
+Note:
+# Ignore neutronium solar panel dire crafting table recipe.
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.26 Changelog (Always Backup your world before updating)
+Updated Mods:
+# ActuallyAdditions
+# AE2
+# Bookshelf: 2
+# Botania
+# CTM
+# Corail Pillar
+# Corail Tombstone: 2
+# DarkUtils
+# ExtraUtils2
+# ExtraPlanets
+# HammerCore
+# Industrial Foregoing
+# ItemPhysic
+# Mantle
+# Modtweaker
+# Pam's Harvestcraft
+# Placebo
+# Portality
+# Random Things: 3
+# RFToolsDims
+# RockyCore
+# RoughMobs2
+# SimpleTrophies
+# Solarflux
+# TinkerIO
+# Tinker's Construct
+# Tinkers' Tool Leveling
+# XNet
+# ArmorPlus
+# Astral Sorcery
+# Better Questing: 2
+# Blockcraftery
+# ChiselsandBits
+# EnderCore/EnderIO/Endergy
+# Hunting Dimension
+# Mouse Tweaks
+# MPUtils Basic Tools
+# MysticalLib
+# NuclearCraft
+# Plustic: 2
+# Pneumaticcraft: 2
+# Progressive Bosses
+# Forgelin
+# WanionLib: 2
+# BrandonsCore
+# HammerCore: 3
+# RebornCore: 2
+# Draconic Evolution
+# Cyclops Core
+# FTBLib/Utilities
+# Ceramics
+# Equivalent Intergration
+# JEI
+# Chance Cubes
+# Simply Jetpacks
+# Lordcraft
+# Wither Skeleton Tweaks
+Features:
+# Redesigned the Magica Coverter
+# Added more recipes for the Magica Converter
+# Added 2 simple achievements
+# Added some missing mystical agriculture seed quests
+Fixes:
+# Removed all potion type fluid cows
+# Fixed wearing Ultimate Armor crashing pack
+WTF:
+# 
+Note:
+# Ignore neutronium solar panel dire crafting table recipe.
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.25 Changelog (Always Backup your world before updating)
+Updated Mods:
+# Forge 2770
+# ModelLoader
+# FTBLib
+# Craftweaker
+# RebornCore
+# Immersive Engineering
+# Pneumaticcraft
+# Added EnderIO Endergy
+# AE2
+# ChatTweaks
+# Tombstone: 2
+# ExtraUtils2: 2
+# Magneticraft
+# Unidict
+# Better Questing: 2
+# NuclearCraft
+# Forge Multipart CBE
+# McJtyLib
+# Bonsai Trees
+# Equivalent Intergration
+# Iron Chests
+# Woot
+# Lordcraft
+Features:
+# Added new quests
+# Added a Questline
+Fixes:
+# Epeolatry is now consumed for the greater Epeolatry
+# Fixed red matter chest armor recipe
+WTF:
+# 
+Note:
+# Ignore neutronium solar panel dire crafting table recipe.
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.24 Changelog (Always Backup your world before updating)
+Updated Mods:
+# Forge 2765
+# Aroma's mining dimension: 3
+# Cooking For Blockheads
+# Chat Tweaks: 2
+# Farming For Blockheads
+# Actually Additions: 2
+# Exchangers
+# Modular Diversity
+# Foamfix
+# Hunting Dimension
+# Modelloader
+# Bookshelf: 5
+# JEI : 3
+# AromaCore: 2
+# Wireless Crafting Terminal
+# AE2 RV6
+# Better Questing: 2
+# Woot
+# ExtraUtils2
+# ExtraCells2
+# /Dank/Null: 2
+# Wawla: 2
+# Embers Rekindled: 3
+# Extended Crafting
+# Thermal Series: 4
+# RedstoneArsenal: 1
+# COFH Core/World: 2
+# OpenModsLib
+# Portality
+# Unidict
+# NuclearCraft: 2
+# Tombstone
+# Lostcities
+# ChiselsandBits: 2
+# Craftweaker
+# FTBLib/Utilities: 2
+# Industrial Foregoing
+# Iron Chests: 2
+# Reliquery
+# YABBA
+# EnderCore
+# EnderIO: 3
+# MJRLegends Lib
+# Clienttweaks
+# CreativeCore
+# FastFurnace
+# NotEnoughIDs
+# Waystones
+Features:
+# Changed texture of Epeolatry
+# Replaced Placeholder metal with EddieRuckusite Metal
+# Added Epeolatry progression in BQ
+# Added EI to Rho
+# Added 2 new Simple Achievements
+# Added simple trophies to all simple achievements except 1
+# Messed with Progressive Bosses configs
+Fixes:
+# Corrected ID for grains_of_infinity_plant.json
+# Removed slime islands from quite a few dimensions for new worlds(maybe it might fix the nexus?)
+# Moved Ingameinfo a little lower in order to see lordcraft spell focus GUI more clearly
+# Removed EE from Rho
+# Fixed chicken quest in Delta
+# Fixed Tier 6 seeds growing on any crux
+# Fixed Twilight Forest portal creation item
+# Moved around waila and simplyjetpacks so you can see Ingameinfo more clearly
+# Fixed NuclearCraft Fission Reactor quest in Kappa questline
+# Decreased boss kill modifier further
+# Increased Quantum Compressor power storage and consumption.
+WTF:
+# 
+Note:
+# Ignore neutronium solar panel dire crafting table recipe.
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.23 Changelog (Always Backup your world before updating)
+Added Mods:
+# JETIF Just Enough Throwing In Fluids
+Updated Mods:
+# Cooking For Blockheads : 2
+# ExtraUtils2
+# FTBLib/Utilities : 2
+# Hunting Dimension : 3
+# Pneumaticcraft Repressurized
+# Twilight Forest
+# YABBA
+# CodeChicken Lib
+# TinyProgressions
+# Enderman Evolution
+# Reborn Core
+# Brandon'sCore/Draconic Evolution
+# Better Questing
+# Corail Tombstone
+# Chisel
+# OpenModsLib/blocks
+# Exnihilocreatio
+# SolarFlux
+# Simply Jetpacks
+# Portality
+# Quark
+# Chance Cubes
+Features:
+# Increased power output of fission and fusion reactors
+# Made recipe for antimatter
+# Added more items in the MM Auto Sieve for crushed netherrack
+Fixes:
+# 
+WTF:
+# Arist0tleite Metal is unobtainable
+# /bq_admin default load might crash the pack, just reload the pack after
+# Ignore neutronium solar panel dire crafting table recipe
+Note:
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.22 Changelog (Always Backup your world before updating)
+Updated Mods:
+# Memorytester
+# MCMultiPart
+# ExtraUtils2
+# FTBLib/Utilities
+# McJtyLib
+# Modtweaker
+# NuclearCraft
+# P455w0rd's Library
+# Pam's Harvestcraft
+# RFTools/Dims
+# Lost Cities
+# XNet
+# Abyssalcraft
+# ArmorPlus
+# Chisels and Bits
+# Cooking For Blockheads
+# Corail Tombstone
+# Epic Siege Mod
+# EnderCore
+# EnderIO
+# ExNihiloCreatio
+# Expanded Equivalence
+# SonarCore
+# SolarFlux
+# YABBA
+Features:
+# Created 2 new quests for solarflux
+# Created the Magica Converter (didn't know what to name it)
+Fixes:
+# Fixed Solarflux entirely
+# Hopefully fixed fosic resonator quest
+# Fixed something in contenttweaker's lang file
+WTF:
+# Arist0tleite Metal is unobtainable
+# /bq_admin default load might crash the pack, just reload the pack after
+# Ignore neutronium solar panel dire crafting table recipe
+Note:
+# Lordcraft's npcs will sometimes ignore you entirely, don't know what causes this.
+-----------------------------------------------------------------------------------------
+3.0.21 Changelog (Always Backup your world before updating)
+Updated Mods:
+# Updated a bunch of mods
+Features:
+# Oil can now be created
+# ALMOST all Beta tester metals are done
+# Adjusted farming for blockheads market
+Fixes:
+# Fixed issues with extra planets' recipes by working around them
+# Removed casting of infinity ingot and block from liquid infinity
+# Resonating Wand quest will now recognize as complete
+# Fixed voidcraft lich not spawning in submerged swamp
+# Rho move up to Nu and shifted other questlines down
+# Vindicator mobs and his asshole brothers should now only spawn in Abyssalcraft, Dreadlands, and Omethol biomes
+WTF:
+# Arist0tleite Metal is unobtainable
+# /bq_admin default load might crash the pack, just reload the pack after.
+Note:

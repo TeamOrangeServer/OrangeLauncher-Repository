@@ -1,0 +1,22 @@
+#packmode normal
+//removal
+recipes.remove(<modularmachinery:itemmodularium> * 5);
+recipes.remove(<magneticraft:crushing_table>);
+recipes.remove(<lordcraft:tile>);
+recipes.remove(<lordcraft:knowledge_book>);
+recipes.remove(<uppers:upper>);
+recipes.remove(<avaritia:resource:1>);
+//additions
+
+//shapeless
+
+//shaped
+recipes.addShaped(<nuclearcraft:manufactory_idle>, [[<ore:ingotLead>, <ore:solenoidCopper>, <ore:ingotLead>],[<ore:solenoidCopper>, <bigreactors:reactorcasingcores>, <ore:solenoidCopper>], [<ore:ingotLead>, <ore:solenoidCopper>, <ore:ingotLead>]]);
+recipes.addShaped(<voidcraft:voidcrystal> * 4, [[<ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>],[<ore:gemEnderBiotite>, <voidcraft:obsidianflask>, <ore:gemEnderBiotite>], [<ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>]]);
+recipes.addShaped(<modularmachinery:itemmodularium> * 5, [[<ore:ingotLead>, <ore:ingotCobalt>, <ore:ingotLead>],[<ore:ingotCobalt>, <ore:dustRedstone>, <ore:ingotCobalt>], [<ore:dustRedstone>, <ore:dustGlowstone>, <ore:dustRedstone>]]);
+recipes.addShaped(<uppers:upper>, [[null, <ore:ingotIron>, null],[<ore:ingotIron>, <ore:chest>, <ore:ingotIron>], [<ore:ingotIron>, null, <ore:ingotIron>]]);
+recipes.addShaped(<magneticraft:crushing_table>, [[<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>],[<ore:ingotAluminum>, <ore:plankWood>, <ore:ingotAluminum>], [<ore:plankWood>, <ore:ingotAluminum>, <ore:plankWood>]]);
+recipes.addShaped(<lordcraft:tile> * 2, [[<ore:paper>, <embers:crystal_ember>, <ore:paper>],[<lordcraft:crystal_basic_neutral>, <ore:ingotMithril>, <lordcraft:crystal_basic_neutral>], [<ore:paper>, <embers:crystal_ember>, <ore:paper>]]);
+
+//shapedMirrored
+recipes.addShapedMirrored(<lordcraft:knowledge_book>, [[<minecraft:book>, <lordcraft:crystal_basic_neutral>, null],[<lordcraft:crystal_basic_neutral>, null, null], [null, null, null]]);

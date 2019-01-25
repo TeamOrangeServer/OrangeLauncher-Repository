@@ -1,0 +1,6 @@
+{
+	"music.rth": {
+		"category": "record",
+		"sounds": [ { "name": "minecraft:custom/rth", "stream": false } ]
+	}
+}

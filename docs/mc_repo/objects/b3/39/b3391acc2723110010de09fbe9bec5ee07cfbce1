@@ -1,0 +1,2 @@
+<contenttweaker:chaos_block>.addTooltip("Don't use for building");
+<contenttweaker:mis_metal>.addTooltip("Taken over by StompTheBean (due to PO3 being ram/cpu hungry");

@@ -1,0 +1,2 @@
+#packmode normal titan kappa
+mods.pneumaticcraft.pressurechamber.addRecipe([<forge:bucketfilled>.withTag({FluidName: "liquidcoralium", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "formic_acid", Amount: 1000}), <lordcraft:crystal_basic_cosmic:0>, <randomthings:ingredient:1>], 2.0, [<forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000})]);

@@ -1,0 +1,27 @@
+{
+	"dependencies": "natura",
+	"populate": {
+		"heat sand": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "natura:nether_heat_sand",
+					"metadata": 0
+				},
+				"material": "minecraft:netherrack",
+				"cluster-size": 15
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		}
+	}
+}

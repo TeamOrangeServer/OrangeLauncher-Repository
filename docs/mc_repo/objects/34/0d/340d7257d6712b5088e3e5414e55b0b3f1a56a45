@@ -1,0 +1,3 @@
+#packmode normal
+#Crystallizer:
+mods.nuclearcraft.crystallizer.addRecipe([<liquid:c_fluid>*100, <draconicevolution:chaos_shard:1>, 1.0, 5.0, 10.0]);

@@ -1,0 +1,3 @@
+#packmode normal
+//creative
+mods.extendedcrafting.TableCrafting.addShaped(1, <mysticalagradditions:stuff:69>, [[<lordcraft:crystal_basic_neutral>, <ore:essenceInsanium>, <lordcraft:crystal_basic_neutral>], [<ore:essenceInsanium>, <mysticalagriculture:master_infusion_crystal>, <ore:essenceInsanium>], [<lordcraft:crystal_basic_neutral>, <ore:essenceInsanium>, <lordcraft:crystal_basic_neutral>]]);

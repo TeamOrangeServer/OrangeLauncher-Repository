@@ -1,0 +1,6 @@
+#packmode normal titan kappa
+//grains of infinity
+mods.extendedcrafting.EnderCrafting.addShapeless(<enderio:item_material:20>, [<ore:obsidian>, <ore:nuggetEnderpearl>, <ore:alloyBasic>]);
+//black iron ingot
+recipes.remove(<extendedcrafting:material>);
+mods.extendedcrafting.EnderCrafting.addShapeless(<extendedcrafting:material:0>, [<ore:gemEnderBiotite>, <ore:gemJade>, <ore:ingotIron>]);

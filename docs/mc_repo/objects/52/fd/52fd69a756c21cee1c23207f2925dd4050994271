@@ -1,0 +1,22 @@
+#packmode normal titan kappa
+//melting
+mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 144,<bigreactors:dustmetals:0>);
+mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 144,<exnihilocreatio:item_ore_yellorium:3>);
+mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 144,<bigreactors:ingotmetals:0>);
+mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 1296,<bigreactors:blockmetals:0>);
+mods.tconstruct.Melting.addRecipe(<liquid:yellorium> * 288,<bigreactors:brore:0>);
+
+//alloying
+mods.tconstruct.Alloy.addRecipe(<liquid:steel> * 1, [<liquid:coal> * 16, <liquid:iron> * 1]);
+
+//fuel
+mods.tconstruct.Fuel.registerFuel(<liquid:pyrotheum> * 25, 2400);
+mods.tconstruct.Fuel.registerFuel(<liquid:fire_water> * 25, 1200);
+mods.tconstruct.Fuel.registerFuel(<liquid:rocket_fuel> * 25, 600);
+
+//remove casting
+//table
+mods.tconstruct.Casting.removeTableRecipe(<avaritia:resource:6>, <liquid:infinity>);
+
+//basin
+mods.tconstruct.Casting.removeBasinRecipe(<avaritia:block_resource:1>, <liquid:infinity>);

@@ -1,0 +1,3 @@
+#packmode normal
+//sluicebox
+mods.magneticraft.SluiceBox.addRecipe(<embers:archaic_bricks>, 1.0, <embers:shard_ember> * 4, true);

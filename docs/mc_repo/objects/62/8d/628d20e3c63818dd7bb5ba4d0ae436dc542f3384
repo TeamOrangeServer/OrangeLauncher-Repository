@@ -1,0 +1,22 @@
+# Configuration file
+
+general {
+    B:"Always show armor bar?"=false
+    B:AlwaysShowArmorBar=false
+
+    # Colors must be specified in #RRGGBB format
+    S:"Armor icon colors" <
+        #FFFFFF
+        #AAAA00
+        #AA0000
+     >
+    S:ColorValues <
+        #FFFFFF
+        #AAAA00
+        #AA0000
+     >
+    B:"Show empty armor icons?"=true
+    B:ShowEmptyArmorIcons=true
+}
+
+

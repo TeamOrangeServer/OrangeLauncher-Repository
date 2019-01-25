@@ -1,0 +1,6 @@
+
+{
+  "Name": "extraplanets.CreeperBossUranus",
+  "Registry ID": "extraplanets:extraplanets.creeperbossuranus",
+  "Class": "com.mjr.extraplanets.entities.bosses.defaultBosses.EntityCreeperBossUranus"
+}

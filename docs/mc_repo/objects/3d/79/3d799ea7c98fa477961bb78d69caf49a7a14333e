@@ -1,0 +1,10 @@
+//This file was created via Cazador! Editing it is not advised!
+#packmode normal titan kappa
+//Don't touch me!
+//#Remove
+furnace.remove(<tconstruct:materials>, <tconstruct:soil>);
+//Don't touch me!
+//#Add
+furnace.addRecipe(<actuallyadditions:block_misc:2>, <botania:quartztypedark>, 0.0);
+furnace.addRecipe(<actuallyadditions:item_misc:5>, <botania:quartz>, 0.0);
+//File End

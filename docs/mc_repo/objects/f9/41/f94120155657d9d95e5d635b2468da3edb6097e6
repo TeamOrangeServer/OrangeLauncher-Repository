@@ -1,0 +1,18 @@
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IItemStack;
+
+//Thanks Radient_Sora
+#Fix Repairs
+var matcCrystals as IItemStack[] = [
+<matc:inferiumcrystal>,
+<matc:prudentiumcrystal>,
+<matc:intermediumcrystal>,
+<matc:superiumcrystal>,
+<matc:supremiumcrystal>,
+<mysticalagriculture:master_infusion_crystal>
+];
+
+for crystals in matcCrystals {
+val def = crystals.definition;
+def.setNoRepair();
+}

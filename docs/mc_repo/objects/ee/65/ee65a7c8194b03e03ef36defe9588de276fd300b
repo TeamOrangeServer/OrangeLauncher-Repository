@@ -1,0 +1,8 @@
+#packmode normal titan kappa
+mods.chisel.Carving.addVariation("basalt", <nex:basalt>);
+mods.chisel.Carving.addVariation("basalt", <nex:basalt:1>);
+mods.chisel.Carving.addVariation("basalt", <nex:basalt:2>);
+mods.chisel.Carving.addVariation("basalt", <nex:basalt:3>);
+mods.chisel.Carving.addVariation("basalt", <projectred-exploration:stone:3>);
+mods.chisel.Carving.addVariation("basalt", <projectred-exploration:stone:4>);
+mods.chisel.Carving.addVariation("basalt", <projectred-exploration:stone:2>);
