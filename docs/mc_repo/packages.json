@@ -1,0 +1,18 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "Project Ozone 3 A New Way Forward",
+      "thumb" : "https://media.forgecdn.net/avatars/153/427/636618242985977538.png",
+      "name" : "pack1",
+      "version" : "2019-01-25-19-53-12",
+      "key" : null,
+      "server" : {
+        "serverHost" : "teamorangeserver.dip.jp",
+        "serverPort" : 25565
+      },
+      "location" : "pack1.json",
+      "priority" : 0
+    }
+  ]
+}
