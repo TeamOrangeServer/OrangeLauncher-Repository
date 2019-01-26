@@ -13,6 +13,19 @@
       },
       "location" : "pack1.json",
       "priority" : 0
+    },
+    {
+      "title" : "MuscariServerS5",
+      "thumb" : "https://i.gyazo.com/85658f5198be9718c27f0f919e14b151.png",
+      "name" : "pack2",
+      "version" : "2019-01-26-17-50-27",
+      "key" : "MSS5",
+      "server" : {
+        "serverHost" : "muscari.dip.jp",
+        "serverPort" : 25565
+      },
+      "location" : "pack2.json",
+      "priority" : 0
     }
   ]
 }
