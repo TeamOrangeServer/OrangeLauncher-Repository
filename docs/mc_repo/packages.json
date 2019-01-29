@@ -26,6 +26,19 @@
       },
       "location" : "pack2.json",
       "priority" : 0
+    },
+    {
+      "title" : "GregTech Expert",
+      "thumb" : null,
+      "name" : "pack3",
+      "version" : "2019-01-29-18-14-02",
+      "key" : null,
+      "server" : {
+        "serverHost" : "yuu111.f5.si",
+        "serverPort" : 25566
+      },
+      "location" : "pack3.json",
+      "priority" : 0
     }
   ]
 }

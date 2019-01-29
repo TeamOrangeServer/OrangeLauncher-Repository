@@ -1,0 +1,732 @@
+{
+  "baseModLoader": {
+    "name": "forge-10.13.4.1614",
+    "type": 1,
+    "downloadUrl": "https://modloaders.cursecdn.com/647622546/maven/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10.jar",
+    "filename": "forge-1.7.10-10.13.4.1614-1.7.10.jar",
+    "installMethod": 1,
+    "latest": true,
+    "recommended": false,
+    "approved": false,
+    "dateModified": "2017-01-01T00:00:00Z",
+    "mavenVersionString": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10",
+    "versionJson": "{\r\n  \"id\": \"forge-10.13.4.1614\",\r\n  \"time\": \"2015-12-10T00:05:37-0500\",\r\n  \"releaseTime\": \"1960-01-01T00:00:00-0700\",\r\n  \"type\": \"release\",\r\n  \"minecraftArguments\": \"--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} --tweakClass cpw.mods.fml.common.launcher.FMLTweaker\",\r\n  \"minimumLauncherVersion\": 14,\r\n  \"assets\": \"1.7.10\",\r\n  \"inheritsFrom\": \"1.7.10\",\r\n  \"jar\": \"forge-10.13.4.1614\",\r\n  \"libraries\": [\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\"\r\n    },\r\n    {\r\n      \"name\": \"net.minecraft:launchwrapper:1.12\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-all:5.0.3\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"com.typesafe.akka:akka-actor_2.11:2.3.3\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"com.typesafe:config:1.2.1\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-actors-migration_2.11:1.1.0\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-compiler:2.11.1\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-library:2.11.1\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-parser-combinators_2.11:1.0.1\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-reflect:2.11.1\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-swing_2.11:1.0.1\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-xml_2.11:1.0.2\",\r\n      \"url\": \"https://modloaders.cursecdn.com/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"lzma:lzma:0.0.1\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:4.5\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"com.google.guava:guava:17.0\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.apache.commons:commons-lang3:3.3.2\",\r\n      \"serverreq\": true\r\n    }\r\n  ],\r\n  \"mainClass\": \"net.minecraft.launchwrapper.Launch\"\r\n}",
+    "librariesInstallLocation": "{0}\\libraries\\net\\minecraftforge\\forge\\1.7.10-10.13.4.1614-1.7.10",
+    "minecraftVersion": "1.7.10",
+    "additionalFilesJson": null
+  },
+  "isUnlocked": false,
+  "javaArgsOverride": null,
+  "javaDirOverride": null,
+  "lastPlayed": "0001-01-01T00:00:00",
+  "manifest": {
+    "minecraft": {
+      "version": "1.7.10",
+      "additionalJavaArgs": null,
+      "modLoaders": [
+        {
+          "id": "forge-10.13.4.1614",
+          "primary": true
+        }
+      ],
+      "libraries": null
+    },
+    "manifestType": "minecraftModpack",
+    "manifestVersion": 1,
+    "name": "GregTech Expert",
+    "version": "4.3.2.1",
+    "author": "kojin15",
+    "description": null,
+    "projectID": 247653,
+    "files": [
+      {
+        "projectID": 225194,
+        "fileID": 2272496,
+        "required": true
+      },
+      {
+        "projectID": 233140,
+        "fileID": 2503632,
+        "required": true
+      },
+      {
+        "projectID": 222211,
+        "fileID": 2302312,
+        "required": true
+      },
+      {
+        "projectID": 242638,
+        "fileID": 2353971,
+        "required": true
+      },
+      {
+        "projectID": 224791,
+        "fileID": 2264826,
+        "required": true
+      },
+      {
+        "projectID": 235279,
+        "fileID": 2287442,
+        "required": true
+      },
+      {
+        "projectID": 228815,
+        "fileID": 2386726,
+        "required": true
+      },
+      {
+        "projectID": 73488,
+        "fileID": 2230518,
+        "required": true
+      },
+      {
+        "projectID": 229046,
+        "fileID": 2280733,
+        "required": true
+      },
+      {
+        "projectID": 223852,
+        "fileID": 2469586,
+        "required": true
+      },
+      {
+        "projectID": 236794,
+        "fileID": 2261384,
+        "required": true
+      },
+      {
+        "projectID": 229316,
+        "fileID": 2233250,
+        "required": true
+      },
+      {
+        "projectID": 225643,
+        "fileID": 2283837,
+        "required": true
+      },
+      {
+        "projectID": 67504,
+        "fileID": 2269339,
+        "required": true
+      },
+      {
+        "projectID": 70496,
+        "fileID": 2269259,
+        "required": true
+      },
+      {
+        "projectID": 225095,
+        "fileID": 2241913,
+        "required": true
+      },
+      {
+        "projectID": 250269,
+        "fileID": 2326278,
+        "required": true
+      },
+      {
+        "projectID": 230969,
+        "fileID": 2263414,
+        "required": true
+      },
+      {
+        "projectID": 238003,
+        "fileID": 2286894,
+        "required": true
+      },
+      {
+        "projectID": 223628,
+        "fileID": 2227552,
+        "required": true
+      },
+      {
+        "projectID": 229306,
+        "fileID": 2262092,
+        "required": true
+      },
+      {
+        "projectID": 228702,
+        "fileID": 2280728,
+        "required": true
+      },
+      {
+        "projectID": 224614,
+        "fileID": 2276280,
+        "required": true
+      },
+      {
+        "projectID": 220954,
+        "fileID": 2313730,
+        "required": true
+      },
+      {
+        "projectID": 229050,
+        "fileID": 2280736,
+        "required": true
+      },
+      {
+        "projectID": 233225,
+        "fileID": 2252273,
+        "required": true
+      },
+      {
+        "projectID": 228816,
+        "fileID": 2386733,
+        "required": true
+      },
+      {
+        "projectID": 223565,
+        "fileID": 2313451,
+        "required": true
+      },
+      {
+        "projectID": 231868,
+        "fileID": 2331048,
+        "required": true
+      },
+      {
+        "projectID": 223094,
+        "fileID": 2210792,
+        "required": true
+      },
+      {
+        "projectID": 64578,
+        "fileID": 2322348,
+        "required": true
+      },
+      {
+        "projectID": 78779,
+        "fileID": 2219011,
+        "required": true
+      },
+      {
+        "projectID": 229045,
+        "fileID": 2280731,
+        "required": true
+      },
+      {
+        "projectID": 263540,
+        "fileID": 2397406,
+        "required": true
+      },
+      {
+        "projectID": 229218,
+        "fileID": 2497337,
+        "required": true
+      },
+      {
+        "projectID": 63352,
+        "fileID": 2269749,
+        "required": true
+      },
+      {
+        "projectID": 32274,
+        "fileID": 2367915,
+        "required": true
+      },
+      {
+        "projectID": 61811,
+        "fileID": 2502739,
+        "required": true
+      },
+      {
+        "projectID": 225561,
+        "fileID": 2264383,
+        "required": true
+      },
+      {
+        "projectID": 223666,
+        "fileID": 2364447,
+        "required": true
+      },
+      {
+        "projectID": 225815,
+        "fileID": 2323485,
+        "required": true
+      },
+      {
+        "projectID": 235716,
+        "fileID": 2260793,
+        "required": true
+      },
+      {
+        "projectID": 66675,
+        "fileID": 2369671,
+        "required": true
+      },
+      {
+        "projectID": 224712,
+        "fileID": 2298772,
+        "required": true
+      },
+      {
+        "projectID": 69162,
+        "fileID": 2388750,
+        "required": true
+      },
+      {
+        "projectID": 233785,
+        "fileID": 2519595,
+        "required": true
+      },
+      {
+        "projectID": 242677,
+        "fileID": 2522249,
+        "required": true
+      },
+      {
+        "projectID": 231382,
+        "fileID": 2292125,
+        "required": true
+      },
+      {
+        "projectID": 69673,
+        "fileID": 2234410,
+        "required": true
+      },
+      {
+        "projectID": 221863,
+        "fileID": 2305237,
+        "required": true
+      },
+      {
+        "projectID": 232838,
+        "fileID": 2427862,
+        "required": true
+      },
+      {
+        "projectID": 239197,
+        "fileID": 2338487,
+        "required": true
+      },
+      {
+        "projectID": 251053,
+        "fileID": 2479882,
+        "required": true
+      },
+      {
+        "projectID": 242878,
+        "fileID": 2287047,
+        "required": true
+      },
+      {
+        "projectID": 223792,
+        "fileID": 2238507,
+        "required": true
+      },
+      {
+        "projectID": 236813,
+        "fileID": 2464673,
+        "required": true
+      },
+      {
+        "projectID": 236609,
+        "fileID": 2291975,
+        "required": true
+      },
+      {
+        "projectID": 79287,
+        "fileID": 2270923,
+        "required": true
+      },
+      {
+        "projectID": 230976,
+        "fileID": 2272838,
+        "required": true
+      },
+      {
+        "projectID": 223794,
+        "fileID": 2245762,
+        "required": true
+      },
+      {
+        "projectID": 248873,
+        "fileID": 2502196,
+        "required": true
+      },
+      {
+        "projectID": 253043,
+        "fileID": 2430662,
+        "required": true
+      },
+      {
+        "projectID": 244559,
+        "fileID": 2307155,
+        "required": true
+      },
+      {
+        "projectID": 255232,
+        "fileID": 2359471,
+        "required": true
+      },
+      {
+        "projectID": 227083,
+        "fileID": 2224857,
+        "required": true
+      },
+      {
+        "projectID": 222213,
+        "fileID": 2262089,
+        "required": true
+      }
+    ],
+    "overrides": "overrides"
+  },
+  "fileDate": "2018-12-18T16:47:20.133",
+  "installedModpack": {
+    "addonID": 247653,
+    "gameInstanceID": "2e936aef-6edc-48cf-afe7-27b807709b80",
+    "installedFile": {
+      "id": 2649807,
+      "fileName": "GregTech Expert-4.3.2.1(HotFix1)",
+      "fileNameOnDisk": "GregTech Expert-4.3.2.1.zip",
+      "fileDate": "2018-12-18T16:47:20.133",
+      "fileLength": 6491744,
+      "releaseType": 1,
+      "fileStatus": 1,
+      "downloadUrl": "https://files.forgecdn.net/files/2649/807/GregTech Expert-4.3.2.1.zip",
+      "isAlternate": false,
+      "alternateFileId": 0,
+      "dependencies": [],
+      "isAvailable": true,
+      "modules": [
+        {
+          "folderName": "manifest.json",
+          "fimgerprint": 993350554
+        }
+      ],
+      "packageFingerprint": 2369479436,
+      "gameVersion": [
+        "1.7.10"
+      ],
+      "installMetadata": null
+    },
+    "dateInstalled": "2019-01-29T09:11:43.943174Z",
+    "dateUpdated": "2019-01-29T09:11:44.2563362Z",
+    "dateLastUpdateAttempted": "2019-01-29T09:11:44.2563362Z",
+    "status": 4,
+    "preferenceAutoInstallUpdates": false,
+    "preferenceAlternateFile": false,
+    "preferenceIsIgnored": false,
+    "isModified": false,
+    "isWorkingCopy": false,
+    "isFuzzyMatch": false,
+    "preferenceReleaseType": null,
+    "manifestName": null,
+    "installedTargets": []
+  },
+  "projectID": 247653,
+  "fileID": 2649807,
+  "customAuthor": null,
+  "modpackOverrides": [
+    "config\\aobd.cfg",
+    "config\\Avaritia.cfg",
+    "config\\Avaritiaddons.cfg",
+    "config\\AWWayofTime.cfg",
+    "config\\Baubles.cfg",
+    "config\\BetterAchievements.cfg",
+    "config\\Botania.cfg",
+    "config\\ChickenChunks.cfg",
+    "config\\chisel.cfg",
+    "config\\CodeChickenCore.cfg",
+    "config\\ComputerCraft.cfg",
+    "config\\DraconicEvolution.Balance.cfg",
+    "config\\DraconicEvolution.cfg",
+    "config\\EnderStorage.cfg",
+    "config\\ExtraUtilities.cfg",
+    "config\\ezstorage.cfg",
+    "config\\fastcraft.ini",
+    "config\\fastleafdecay.cfg",
+    "config\\ForbiddenMagic.cfg",
+    "config\\forge.cfg",
+    "config\\forgeChunkLoading.cfg",
+    "config\\GraviSuite.cfg",
+    "config\\gregtania.cfg",
+    "config\\IC2.ini",
+    "config\\IC2NuclearControl.cfg",
+    "config\\IGWMod.cfg",
+    "config\\InvTweaks.cfg",
+    "config\\InvTweaksRules.txt",
+    "config\\InvTweaksTree.txt",
+    "config\\journeymap_ModInfo.cfg",
+    "config\\LogisticsPipes.cfg",
+    "config\\microblocks.cfg",
+    "config\\MrTJPCore.cfg",
+    "config\\multipart.cfg",
+    "config\\NEIAddons.cfg",
+    "config\\neresources.cfg",
+    "config\\NotEnoughKeys.cfg",
+    "config\\OpenBlocks.cfg",
+    "config\\OpenMods.cfg",
+    "config\\OpenModsLibCore.json",
+    "config\\ProjectRed.cfg",
+    "config\\QuarryPlus.cfg",
+    "config\\RefineCraft.cfg",
+    "config\\splash.properties",
+    "config\\StorageDrawers.cfg",
+    "config\\Thaumcraft.cfg",
+    "config\\thaumcraftneiplugin.cfg",
+    "config\\thaumicenergistics.cfg",
+    "config\\ThaumicExploration.cfg",
+    "config\\Waila.cfg",
+    "config\\WailaHarvestability.cfg",
+    "config\\WirelessCraftingTerminal.cfg",
+    "config\\witchery.cfg",
+    "config\\witchery_debug.cfg",
+    "config\\AE2Stuff\\readme.txt",
+    "config\\AppliedEnergistics2\\AppliedEnergistics2.cfg",
+    "config\\AppliedEnergistics2\\CustomRecipes.cfg",
+    "config\\AppliedEnergistics2\\extracells.cfg",
+    "config\\AppliedEnergistics2\\Facades.cfg",
+    "config\\AppliedEnergistics2\\VersionChecker.cfg",
+    "config\\AppliedEnergistics2\\IntelliE\\IntelliE.cfg",
+    "config\\AppliedEnergistics2\\IntelliE\\Aero\\ChestNut.cfg",
+    "config\\AppliedEnergistics2\\IntelliE\\Aero\\Disassembler.cfg",
+    "config\\AppliedEnergistics2\\IntelliE\\Aero\\FreeRunner.cfg",
+    "config\\AppliedEnergistics2\\IntelliE\\Aero\\HorseShoes.cfg",
+    "config\\AppliedEnergistics2\\IntelliE\\Aero\\SkyDiver.cfg",
+    "config\\AppliedEnergistics2\\recipes\\items.csv",
+    "config\\AppliedEnergistics2\\recipes\\README.html",
+    "config\\AppliedEnergistics2\\recipes\\generated\\aliases.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\groups.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\index.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\oredict.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\decorative\\certus.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\decorative\\crystals.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\decorative\\fixtures.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\decorative\\index.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\decorative\\quartzglass.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\decorative\\skystone.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\decorative\\slabs.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\decorative\\stairs.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\materials\\cards.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\materials\\circuits.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\materials\\cores.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\materials\\index.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\materials\\presses.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\materials\\processors.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\misc\\chests.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\misc\\deconstruction.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\misc\\fluixpearl.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\misc\\grindstone.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\misc\\index.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\misc\\meteors.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\misc\\seeds.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\misc\\tinytnt.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\misc\\vanilla.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\index.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\wireless.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\blocks\\cellworkbench.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\blocks\\controller.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\blocks\\crystal-processing.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\blocks\\energy.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\blocks\\index.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\blocks\\inscribers.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\blocks\\interfaces.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\blocks\\io.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\blocks\\quantum.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\blocks\\security.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\blocks\\spatial-io.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\blocks\\storage.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\cables\\covered.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\cables\\dense.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\cables\\glass.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\cables\\index.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\cables\\smart.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\cells\\empty.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\cells\\index.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\cells\\spatial-components.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\cells\\spatial.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\cells\\storage-components.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\cells\\storage.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\cells\\view.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\crafting\\assembler.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\crafting\\cpu.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\crafting\\index.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\crafting\\patterns.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\parts\\cable-anchor.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\parts\\emitters.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\parts\\index.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\parts\\io-buses.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\parts\\monitors.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\parts\\panels.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\parts\\planes.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\parts\\quartz-fiber.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\parts\\terminals.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\parts\\toggle-buses.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\network\\parts\\tunnels.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\processing\\factorization.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\processing\\grind.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\processing\\hydraulicraft.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\processing\\ic2.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\processing\\index.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\processing\\mekanism.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\processing\\rotarycraft.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\processing\\te.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\processing\\vanilla.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\tools\\certus-quartz.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\tools\\index.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\tools\\matter-cannon.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\tools\\misctools.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\tools\\nether-quartz.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\tools\\network.recipe",
+    "config\\AppliedEnergistics2\\recipes\\generated\\tools\\paintballs.recipe",
+    "config\\BloodMagic\\schematics\\Ampitheter.json",
+    "config\\BloodMagic\\schematics\\LavaLight.json",
+    "config\\BloodMagic\\schematics\\MedFarm1.json",
+    "config\\BloodMagic\\schematics\\MedForge1.json",
+    "config\\BloodMagic\\schematics\\MedHouse1.json",
+    "config\\BloodMagic\\schematics\\MedMossyForge.json",
+    "config\\BloodMagic\\schematics\\MossyCellar1.json",
+    "config\\BloodMagic\\schematics\\MossyGourdHouse1.json",
+    "config\\BloodMagic\\schematics\\MossyTheatre.json",
+    "config\\BloodMagic\\schematics\\QuickDemonStructure1.json",
+    "config\\BloodMagic\\schematics\\SmallHouse1.json",
+    "config\\BloodMagic\\schematics\\SmallHouse2.json",
+    "config\\BloodMagic\\schematics\\SmallMossyTower1.json",
+    "config\\BloodMagic\\schematics\\SmallTower1.json",
+    "config\\buildcraft\\compat.cfg",
+    "config\\buildcraft\\main.cfg",
+    "config\\buildcraft\\objects.cfg",
+    "config\\cofh\\core\\client.cfg",
+    "config\\cofh\\core\\common.cfg",
+    "config\\cofh\\core\\friends.cfg",
+    "config\\cofh\\core\\loot.cfg",
+    "config\\cofh\\world\\Vanilla.json",
+    "config\\draconicevolution\\manual.json",
+    "config\\draconicevolution\\resources\\pack.mcmeta",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\chaosIsland.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\comet.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\dislocatorReceptical.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore1.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore10.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore11.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore12.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore13.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore14.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore15.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore16.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore17.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore18.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore19.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore2.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore3.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore4.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore5.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore6.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore7.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore8.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\ECore9.png",
+    "config\\draconicevolution\\resources\\assets\\draconicevolution\\textures\\gui\\manualimages\\resurrectionRitual.png",
+    "config\\endercore\\cropConfig.json",
+    "config\\endercore\\endercore.cfg",
+    "config\\enderio\\AlloySmelterRecipes_Core.xml",
+    "config\\enderio\\AlloySmelterRecipes_User.xml",
+    "config\\enderio\\EnchanterRecipes_Core.xml",
+    "config\\enderio\\EnchanterRecipes_User.xml",
+    "config\\enderio\\EnderIO.cfg",
+    "config\\enderio\\OreDictionaryPreferences_Core.xml",
+    "config\\enderio\\OreDictionaryPreferences_User.xml",
+    "config\\enderio\\PainterPaintSources_Core.xml",
+    "config\\enderio\\PainterPaintSources_User.xml",
+    "config\\enderio\\PoweredSpawnerConfig_Core.json",
+    "config\\enderio\\PoweredSpawnerConfig_User.json",
+    "config\\enderio\\SAGMillRecipes_Core.xml",
+    "config\\enderio\\SAGMillRecipes_User.xml",
+    "config\\enderio\\SliceAndSpliceRecipes_Core.xml",
+    "config\\enderio\\SliceAndSpliceRecipes_User.xml",
+    "config\\enderio\\VatRecipes_Core.xml",
+    "config\\enderio\\VatRecipes_User.xml",
+    "config\\GregTech\\GregTech.cfg",
+    "config\\GregTech\\IDs.cfg",
+    "config\\GregTech\\MachineStats.cfg",
+    "config\\GregTech\\MaterialComponents.cfg",
+    "config\\GregTech\\MaterialProperties.cfg",
+    "config\\GregTech\\ModularArmor.cfg",
+    "config\\GregTech\\OreProcessing.cfg",
+    "config\\GregTech\\Other.cfg",
+    "config\\GregTech\\OverpoweredStuff.cfg",
+    "config\\GregTech\\Recipes.cfg",
+    "config\\GregTech\\Unification.cfg",
+    "config\\GregTech\\WorldGeneration.cfg",
+    "config\\INpureProjects\\custom_nei_filters\\AppliedEnergistics2.js",
+    "config\\INpureProjects\\custom_nei_filters\\Bibliocraft.js",
+    "config\\INpureProjects\\custom_nei_filters\\Bootstrap.js",
+    "config\\INpureProjects\\custom_nei_filters\\BuildCraft.js",
+    "config\\INpureProjects\\custom_nei_filters\\custom_nei_filters.cfg",
+    "config\\INpureProjects\\custom_nei_filters\\ExtraUtilities.js",
+    "config\\INpureProjects\\custom_nei_filters\\ForgeMicroblock.js",
+    "config\\INpureProjects\\custom_nei_filters\\Mekanism.js",
+    "config\\INpureProjects\\custom_nei_filters\\MFR.js",
+    "config\\INpureProjects\\custom_nei_filters\\nei_filters.toc",
+    "config\\INpureProjects\\custom_nei_filters\\Tcon.js",
+    "config\\INpureProjects\\custom_nei_filters\\ThermalExpansion.js",
+    "config\\INpureProjects\\custom_nei_filters\\vanilla.js",
+    "config\\INpureProjects\\INpureCore\\INpureCore.cfg",
+    "config\\INpureProjects\\logs\\debug.log",
+    "config\\NEI\\client.cfg",
+    "config\\powercrystals\\netherores\\common.cfg",
+    "config\\sci4me\\Torcherino.cfg",
+    "config\\Spmod\\IC2Breed.cfg",
+    "mods\\GraviSuite-1.7.10-2.0.3.jar",
+    "mods\\QuarryPlus-1.7.10-2.1.0.jar",
+    "mods\\1.7.10\\GTTweaker-1.7.10-1.7.0.jar",
+    "scripts\\AE2.zs",
+    "scripts\\AE2stuff.zs",
+    "scripts\\Avaritia.zs",
+    "scripts\\BuildCraft.zs",
+    "scripts\\Chisel.zs",
+    "scripts\\ComputerCraft.zs",
+    "scripts\\EndContents.zs",
+    "scripts\\EnderIO.zs",
+    "scripts\\EnderStorage.zs",
+    "scripts\\ExtraCells.zs",
+    "scripts\\ExtraUtilities.zs",
+    "scripts\\EZStorage.zs",
+    "scripts\\IC2mods.zs",
+    "scripts\\LogisticsPipes.zs",
+    "scripts\\MultiPageChest.zs",
+    "scripts\\OpenBlocks.zs",
+    "scripts\\ProjectRed.zs",
+    "scripts\\QuarryPlus.zs",
+    "scripts\\RefindCraft.zs",
+    "scripts\\StorageDrawers.zs",
+    "scripts\\Thaumcraft.zs",
+    "scripts\\ThaumicEnergistics.zs",
+    "scripts\\Touchrino.zs",
+    "scripts\\Vanila.zs"
+  ],
+  "isMemoryOverride": false,
+  "allocatedMemory": 0,
+  "guid": "2e936aef-6edc-48cf-afe7-27b807709b80",
+  "gameTypeID": 432,
+  "installPath": "C:\\Users\\sousuke\\Documents\\Curse\\Minecraft\\Instances\\GregTech Expert\\",
+  "name": "GregTech Expert",
+  "cachedScans": null,
+  "isValid": true,
+  "lastPreviousMatchUpdate": "0001-01-01T00:00:00",
+  "isEnabled": true,
+  "isPinned": false,
+  "gameVersion": "1.7.10",
+  "preferenceAlternateFile": false,
+  "preferenceAutoInstallUpdates": false,
+  "preferenceQuickDeleteLibraries": true,
+  "preferenceDeleteSavedVariables": true,
+  "preferenceProcessFileCommands": true,
+  "preferenceReleaseType": 1,
+  "syncProfile": {
+    "PreferenceEnabled": false,
+    "PreferenceAutoSync": true,
+    "PreferenceAutoDelete": false,
+    "PreferenceBackupSavedVariables": false,
+    "GameInstanceGuid": "00000000-0000-0000-0000-000000000000",
+    "SyncProfileID": 0,
+    "SavedVariablesProfile": null,
+    "LastSyncDate": "0001-01-01T00:00:00"
+  },
+  "preferenceShowAddOnInfo": true,
+  "installDate": "2019-01-29T09:11:39.7515395Z",
+  "installedAddons": null,
+  "isMigrated": false,
+  "preferenceUploadProfile": false
+}
