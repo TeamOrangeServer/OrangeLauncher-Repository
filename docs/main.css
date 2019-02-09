@@ -118,3 +118,10 @@ table {
 .wf-sawarabimincho { 
     font-family: "Sawarabi Mincho"; 
 }
+
+
+/* フォント指定 */
+
+body {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
