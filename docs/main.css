@@ -115,13 +115,11 @@ table {
     text-align : center;
 }
 */
-.wf-sawarabimincho { 
-    font-family: "Sawarabi Mincho"; 
-}
+
 
 
 /* フォント指定 */
 
 body {
-    font-family: 'Sawarabi Mincho', sans-serif;
+    font-family: 'Sawarabi Gothic' ,'Sawarabi Mincho', sans-serif;
 }

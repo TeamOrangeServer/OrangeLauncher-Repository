@@ -2,41 +2,12 @@
   "minimumVersion" : 1,
   "packages" : [
     {
-      "title" : "Project Ozone 3 A New Way Forward",
-      "thumb" : "https://media.forgecdn.net/avatars/153/427/636618242985977538.png",
-      "name" : "pack1",
-      "version" : "2019-01-25-19-53-12",
-      "key" : null,
-      "server" : {
-        "serverHost" : "teamorangeserver.dip.jp",
-        "serverPort" : 25565
-      },
-      "location" : "pack1.json",
-      "priority" : 0
-    },
-    {
-      "title" : "MuscariServerS5",
-      "thumb" : "https://i.gyazo.com/85658f5198be9718c27f0f919e14b151.png",
-      "name" : "pack2",
-      "version" : "2019-01-26-17-50-27",
-      "key" : "MSS5",
-      "server" : {
-        "serverHost" : "muscari.dip.jp",
-        "serverPort" : 25565
-      },
-      "location" : "pack2.json",
-      "priority" : 0
-    },
-    {
-      "title" : "GregTech Expert",
-      "thumb" : "https://i.gyazo.com/409fd92658adbdac4e9852af04a0c414.png",
+      "title" : "001",
+      "thumb" : null,
       "name" : "pack3",
-      "version" : "2019-01-30-23-03-24",
+      "version" : "2019-02-23-16-49-31",
       "key" : null,
-      "server" : {
-        "serverHost" : "yuu111.f5.si",
-        "serverPort" : 25566
-      },
+      "server" : null,
       "location" : "pack3.json",
       "priority" : 0
     }
