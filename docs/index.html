@@ -1,47 +1,163 @@
 <!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <meta title="OrangeLauncher Download">
-        <link rel="stylesheet" type="text/css" href="main.css">
-        <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic|Sawarabi+Mincho" rel="stylesheet">
-    </head>
-    <body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Orange Launcherについて</title>
 
-        <h1>　工　事　中　</h1>
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link href="css/loading.css" rel="stylesheet">
+    <script src="js/loading.js"></script>
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Noto+Sans+JP&amp;subset=japanese" rel="stylesheet">
+    <!--materialize-->
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/init.js"></script>
+  </head>
+  <body>
+    
+      <div class="wrapper jqloading">
+          <h5 class="header col s12 light">読み込み中・・・</h5>
+          <div class="box-wrap">
+              <div class="box one"></div>
+              <div class="box two"></div>
+              <div class="box three"></div>
+              <div class="box four"></div>
+              <div class="box five"></div>
+              <div class="box six"></div>
+          </div>
+      </div>
 
-        <div class="cp_bgpattern11">
-            <div>
-                <div>
-                    <h1 class="ribbon">Download</h1>
-                </div>
-                <br>
-                <br>
-                <div class="wf-sawarabigothic">
-                    <h3>OrangeLauncherとは？</h3>
-                    <p><a href="https://github.com/Team-Fruit/FruitLauncher">FruitLauncher</a>をベースに開発された、主にOrangeServer向けのMinecraftLauncherです。</p>
-                </div>
-            <!--    <div>
-                    <a>Get OrangeLauncher</a>
-                </div> -->
-                <div align="center">
-                    <table border="1">
-                        <tr>
-                            <th colspan="3" >Get OrangeLauncher</th>
-                        </tr>
-                        <tr>
-                            <th>Type</th><th>Download</th>
-                        </tr>
-                        <tr>
-                            <td>jar</td><td><a href="./jars/dl/OrangeLauncher 3.5.jar">Get</a></td>
-                        </tr>
-                        <tr>
-                            <td>src</td><td><a href="https://github.com/TeamOrangeServer/OrangeLauncher">Open</a></td>
-                        </tr>
-                    </table>
-                </div>
-                <br>
-            </div>
+    <nav class="green" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="/" class="brand-logo">Orange Server</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="https://oocp.dip.jp">新しいページに移動</a></li>
+        </ul>
+      
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#">Navbar Link</a></li>
+         </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="mdi-navigation-menu"></i></a>
+      </div>
+    </nav>
+
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header center teal-text text-lighten-2">Orange製のLauncherを入手</h1>
+          <div class="row center">
+            <h5 class="header col s12 light">新世代のOrange Launcherを手に入れよう！！</h5>
+         </div>
+         <div class="row center">
+          <a href="https://oocp.dip.jp/launcher" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Orange Launcher</a>
+         </div>
+         <br><br>
+
         </div>
-    </body>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="mdi-image-flash-on"></i></h2>
+              <div class="center"><i class="medium material-icons">storage</i></div>
+              <h5 class="center">GitHubやGitLabのページ機能を使わなくなりました。</h5>
+          
+              <p class="light">GCPを採用し、安定(※1)、大容量を実現しました。これにより、古いパックを極力消さずに新たなパックを追加することが容易になりました。</p>
+              <p>※1:課金トリガーによって停止する場合があります。※2:<b class="red">2019/04/30現在配布されているランチャーはGitHubのページ機能を利用しています。(一部Preview版を除く。)</b></p>
+            </div>
+          </div>
+    
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="mdi-social-group"></i></h2>
+                <div class="center"><i class="medium material-icons">cloud_download</i></div>
+                <h5 class="center">Forge、LiteLoaderの自動ダウンロード、インストール。</h5>
+    
+                <p class="light">これはベースのFruit Launcherにも搭載されている機能ですが、Twitchのように簡単にModPackを導入することができます。また、LiteLoaderも自動で導入できます。</p>
+              </div>
+            </div>
+    
+        <div class="col s12 m4">
+          <div class="icon-block">
+          <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
+          <div class="center"><i class="medium material-icons">web</i></div>
+          <h5 class="center">直感的に操作できるデザイン。簡単な導入。</h5>
+    
+          <p class="light">MinecraftのModPackに関係の無い余計なものは極力排除してあるため、必要な物も64bit版javaと製品版を購入してあるMinecraftアカウントのみです。</p>
+        </div>
+      </div>
+    </div>
+    
+        </div>
+      </div>
+
+
+      <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <div class="row center">
+              <h5 class="header col s12 light">より楽しいクラフターライフを</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        <div class="container">
+          <div class="section">
+      
+            <div class="row">
+              <div class="col s12 center">
+                <h3><i class="mdi-content-send brown-text"></i></h3>
+                <h4>古いバージョンのLauncherはどこで手に入れられますか？</h4>
+                <p class="light">現在使用可能な旧世代Orange Launcherは<a href="legacy_index.html">こちら</a>から手に入れることができます。</p>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+          <footer class="page-footer teal">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">このページについての注意</h5>
+                  <p class="grey-text text-lighten-4">プロジェクトページ本体も移動されたので基本的にはこのページのメンテナンスの予定はありません。誤字脱字等があっても修正しない可能性があります。</p>
+        
+        
+                </div>
+                <div class="col l3 s12">
+                  <h5 class="white-text">Team Orange</h5>
+                  <ul>
+                    <li><a class="white-text" href="https://discord.gg/3F4r97p">Discordに参加</a></li>
+                    <li><a class="white-text" href="https://github.com/TeamOrangeServer">GitHub</a></li>
+                    <li><a class="white-text" href="https://gitlab.com/teamorangeserver">GitLab</a></li>
+                    <li><a class="white-text" href="https://github.com/TeamOrangeServer/OrangeLauncher">Orange Launcherリポジトリ</a></li>
+                  </ul>
+                </div>
+                <div class="col l3 s12">
+                  <h5 class="white-text">協力者及び、関係者、新プロジェクトページ</h5>
+                  <ul>
+                    <li><a class="white-text" href="https://akari.fiid.net/piroの日記.html">ゆぴ</a></li>
+                    <li><a class="white-text" href="https://oocp.dip.jp/launcher">新プロジェクトページ</a></li>
+                    <li><a class="white-text" href="#!">Link 3</a></li>
+                    <li><a class="white-text" href="#!">Link 4</a></li>
+                    <p>敬称略</p>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+                  &copy; 2018<script>new Date().getFullYear()>2015&&document.write("-"+new Date().getFullYear());</script> Team Orange.
+              </div>
+            </div>
+          </footer>
+
+  </body>
 </html>
